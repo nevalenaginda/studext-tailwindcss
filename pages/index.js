@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="font-quicksand min-h-screen overflow-x-hidden">
       <Head>
-        <title>Studext || Dashboard</title>
+        <title>Studext | Dashboard</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
