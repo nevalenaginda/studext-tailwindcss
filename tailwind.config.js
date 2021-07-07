@@ -19,6 +19,13 @@ module.exports = {
         },
         blue: {
           "100": "#008FFF;"
+        },
+        tosca: {
+          "100": "#53BAC1"
+        },
+        red: {
+          "10": "#FBE6EB;",
+          "100": "#DB0038"
         }
       }
     },
@@ -42,9 +49,29 @@ module.exports = {
         "height": "60px",
         "border-radius": "50%",
         'background-image': 'linear-gradient(to right, #00c6fb, #005bea)'
+      },
+      '.leaderboard': {
+        'background-image': 'url("/confetty.png");',
+        'background-repeat': 'repeat-x;'
+      },
+      '.rank1': {
+        'background': 'linear-gradient(89.9deg, #FFCE00 42.44%, #FFEEA9 107.27%);',
+      },
+      '.rank2': {
+        'background': 'linear-gradient(89.9deg, #D1D1C2 42.44%, #EFEFEF 107.27%);'
+      },
+      '.rank3': {
+        'background': 'linear-gradient(89.9deg, #EBA468 42.44%, #FDDDC2 107.27%);'
+      },
+      '.rank4': {
+        'background': '#F9F9F9;'
+      },
+      '.ranking::-webkit-scrollbar': {
+        'width': '0;',
+        'height': '0;',
+        'background': 'transparent;'
       }
     }
-
     addUtilities(newUtilities, ['responsive', 'hover'])
   })],
 }

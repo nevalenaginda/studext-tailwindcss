@@ -5,7 +5,7 @@ function Nav({ trigger }) {
   return (
     <>
       <nav
-        className={`absolute lg:relative top-24 left-0 lg:top-0 z-20 lg:flex flex-col lg:flex-row lg:space-x-6 font-semibold w-full lg:w-auto bg-white shadow-md rounded-lg lg:rounded-none lg:shadow-none lg:bg-transparent p-6 pt-0 lg:p-0 ${
+        className={`absolute lg:relative top-24 left-0 lg:top-0 z-20 lg:flex flex-col lg:flex-row lg:space-x-6 font-semibold w-full lg:w-auto bg-white shadow-md rounded-lg lg:rounded-none lg:shadow-none lg:bg-transparent p-6 pt-0 space-y-5 lg:space-y-0 lg:p-0 ${
           trigger ? "flex" : "hidden"
         }`}
       >
